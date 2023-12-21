@@ -1,0 +1,28 @@
+{
+  "appName" : "LexiLearn",
+  "login": "Login",
+  "register": "Register" ,
+  "haveAccount": "Already have account ?" ,
+  "name" : "Name" ,
+  "age" : "Age" ,
+  "email" : "Email address" ,
+  "pass": "Password" ,
+  "gender" : "Gender" ,
+  "notHaveAccount": "Don't have account ?" ,
+  "male" : "Male" ,
+  "female" : "Female" ,
+  "q1" :"هل طفلك ممدد بالكتب الذي يحتاجها؟" ,
+  "q2" :"هل طفلك حاليا يدرس فى المدرسة و يحضر بانتظام؟" ,
+  "q3" :"هل طاقم المعلمين فى المدرسة كفء و يجيدون شرح المنهج؟" ,
+  "q4" :"هل تخلو البيئة المحيطة من المشاكل أسرية بين الوالدين؟" ,
+  "q5" :"هل تخلو حياة طفلك من اى صورة من صور التنمر؟" ,
+  "q6" :"هل البيئة الأسرية المحيطة توفر الدعم النفسي للطفل؟" ,
+  "q7" :"هل البيئة المحيطة بالطفل بها متعلمين (ليسوا أميون) بنسبة تزيد عن ٦٠%؟" ,
+  "yes":"Yes" ,
+  "no": "No" ,
+  "qAppBar": "مرحلة التشخيص" ,
+  "send" : "Send" ,
+  "let": "Let's Go" ,
+  "start": "start"
+
+}

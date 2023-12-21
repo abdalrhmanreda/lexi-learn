@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "496091312519",
+    "project_id": "lexi-learn-18adc",
+    "storage_bucket": "lexi-learn-18adc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496091312519:android:2f1b47468c0e7b87512322",
+        "android_client_info": {
+          "package_name": "com.example.lexi_learn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnXx-RTqk_AR237gGvag3fS2Gj5FpPu8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
