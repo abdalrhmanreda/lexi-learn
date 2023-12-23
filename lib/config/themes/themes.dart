@@ -18,10 +18,14 @@ class Style {
     appBarTheme: AppBarTheme(
       backgroundColor: const Color(AppColors.kScaffoldBackGroundColor),
       elevation: 0,
-      titleTextStyle: GoogleFonts.aBeeZee(
-        color: Colors.black,
-        fontSize: 17.sp,
-      ),
+      titleTextStyle: isArabic()
+          ? GoogleFonts.elMessiri(
+              color: Colors.black,
+              fontSize: 19.sp,
+            )
+          : GoogleFonts.aBeeZee(
+              color: Colors.black,
+            ),
       systemOverlayStyle: const SystemUiOverlayStyle(
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.light,

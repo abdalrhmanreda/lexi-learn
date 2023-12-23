@@ -5,6 +5,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:lexi_learn/config/routes/routes_path.dart';
+import 'package:lexi_learn/ui/cubit/app_cubit.dart';
 import 'package:lexi_learn/ui/features/authentication/controller/auth_cubit.dart';
 
 import 'config/routes/router.dart';
@@ -41,6 +42,7 @@ class MyApp extends StatelessWidget {
           child: MultiBlocProvider(
             providers: [
               BlocProvider(create: (context) => AuthCubit()),
+              BlocProvider(create: (context) => AppCubit()),
             ],
             child: MaterialApp(
               initialRoute: RoutePath.test,
