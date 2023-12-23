@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
               BlocProvider(create: (context) => AuthCubit()),
             ],
             child: MaterialApp(
-              initialRoute: RoutePath.let,
+              initialRoute: RoutePath.test,
               onGenerateRoute: generateRoute,
               locale: const Locale('ar', 'US'),
               localizationsDelegates: const [

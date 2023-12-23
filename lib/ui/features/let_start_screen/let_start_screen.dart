@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:lexi_learn/config/routes/routes_path.dart';
+import 'package:lexi_learn/core/components/custom_navigatation.dart';
 
 import '../../../config/colors/app_colors.dart';
 import '../../../core/components/custom_button.dart';
@@ -25,7 +27,9 @@ class LetStartScreen extends StatelessWidget {
             flex: 2,
           ),
           CustomButton(
-            onPressed: () {},
+            onPressed: () {
+              CustomNavigation.navigateByNamedTo(context, RoutePath.test);
+            },
             text: S.of(context).let,
             textColor: AppColors.kWhiteColor,
             radius: 10,

@@ -3,6 +3,7 @@ import 'package:lexi_learn/config/routes/routes_path.dart';
 import 'package:lexi_learn/ui/features/authentication/screens/choose_loging_or_register/choose_loging_or_register.dart';
 import 'package:lexi_learn/ui/features/let_start_screen/let_start_screen.dart';
 import 'package:lexi_learn/ui/features/questionair_screen/screens/questionair_screen.dart';
+import 'package:lexi_learn/ui/features/questions_screen/screens/question_screen.dart';
 
 import '../../ui/features/authentication/screens/login_screen/login_screen.dart';
 import '../../ui/features/authentication/screens/register_screen/register_screen.dart';
@@ -22,6 +23,8 @@ Route? generateRoute(RouteSettings settings) {
       return MaterialPageRoute(builder: (_) => Questionnaire());
     case RoutePath.let:
       return MaterialPageRoute(builder: (_) => const LetStartScreen());
+    case RoutePath.test:
+      return MaterialPageRoute(builder: (_) => const QuestionScreen());
     // case RoutePath.layout:
     //   return MaterialPageRoute(builder: (_) => const LayoutScreen());
     // case RoutePath.editProfile:

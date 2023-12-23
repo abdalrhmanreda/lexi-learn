@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:gap/gap.dart';
 import 'package:lexi_learn/config/colors/app_colors.dart';
+import 'package:lexi_learn/config/routes/routes_path.dart';
 import 'package:lexi_learn/core/components/custom_button.dart';
+import 'package:lexi_learn/core/components/custom_navigatation.dart';
 import 'package:lexi_learn/core/constant/app_constant.dart';
 
 import '../../../../generated/l10n.dart';
@@ -40,6 +43,8 @@ class _QuestionnaireState extends State<Questionnaire> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
+              Text(S.of(context).n),
+              const Gap(20),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: List.generate(answers.length, (index) {
@@ -88,7 +93,9 @@ class _QuestionnaireState extends State<Questionnaire> {
               ),
               Text('$yesCounter/7', style: const TextStyle(fontSize: 17.0)),
               CustomButton(
-                onPressed: () {},
+                onPressed: () {
+                  CustomNavigation.navigateByNamedTo(context, RoutePath.let);
+                },
                 text: S.of(context).start,
                 textColor: AppColors.kWhiteColor,
                 radius: 10,

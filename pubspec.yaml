@@ -71,6 +71,7 @@ dependencies:
   icons_plus: ^4.0.0
   swipe_to: ^1.0.5
   animated_text_kit: ^4.2.2
+  quickalert: ^1.0.2
 
 dev_dependencies:
   flutter_test:
@@ -95,6 +96,18 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+    - assets/images/Question1/
+    - assets/images/Question2/
+    - assets/images/Question3/
+    - assets/images/Question4/
+    - assets/images/Question5/
+    - assets/images/Question7/
+    - assets/images/Question8/
+    - assets/images/Question9/
+    - assets/images/Question10/
+    - assets/images/Question11/
+    - assets/images/Question12/
+    - assets/images/Question6/
 #    - assets/logo/
 #    - assets/on_boarding/
 

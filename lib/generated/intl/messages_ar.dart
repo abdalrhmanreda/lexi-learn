@@ -33,6 +33,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "let": MessageLookupByLibrary.simpleMessage("هيا نبدأ !"),
         "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "male": MessageLookupByLibrary.simpleMessage("ذكر"),
+        "n": MessageLookupByLibrary.simpleMessage(
+            " “كلما كان التشخيص أفضل، كلما كان لديك علاج أفضل” لذا يرجى مساعدتنا في علاج طفلك من خلال قراءة الأسئلة التالية بدقة والإجابة عليها بمصداقية، الأسئلة التالية مصممة لضمان سلامة البيئة المحيطة بطفلك ."),
         "name": MessageLookupByLibrary.simpleMessage("الاسم"),
         "no": MessageLookupByLibrary.simpleMessage("لا"),
         "notHaveAccount":
