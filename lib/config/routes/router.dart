@@ -7,6 +7,7 @@ import 'package:lexi_learn/ui/features/questions_screen/screens/question_screen.
 
 import '../../ui/features/authentication/screens/login_screen/login_screen.dart';
 import '../../ui/features/authentication/screens/register_screen/register_screen.dart';
+import '../../ui/features/determine_reading_difficulties/screens/test_to_determine_reading_difficulties.dart';
 import '../../ui/features/splash_screen/screens/splash_screen.dart';
 
 Route? generateRoute(RouteSettings settings) {
@@ -25,6 +26,9 @@ Route? generateRoute(RouteSettings settings) {
       return MaterialPageRoute(builder: (_) => const LetStartScreen());
     case RoutePath.test:
       return MaterialPageRoute(builder: (_) => const QuestionScreen());
+    case RoutePath.determineReadingDifficultiesScreen:
+      return MaterialPageRoute(
+          builder: (_) => const DetermineReadingDifficultiesScreen());
     // case RoutePath.layout:
     //   return MaterialPageRoute(builder: (_) => const LayoutScreen());
     // case RoutePath.editProfile:

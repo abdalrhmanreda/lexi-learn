@@ -21,7 +21,7 @@ class Style {
       titleTextStyle: isArabic()
           ? GoogleFonts.elMessiri(
               color: Colors.black,
-              fontSize: 19.sp,
+              fontSize: 18.sp,
             )
           : GoogleFonts.aBeeZee(
               color: Colors.black,

@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
               BlocProvider(create: (context) => AppCubit()),
             ],
             child: MaterialApp(
-              initialRoute: RoutePath.test,
+              initialRoute: RoutePath.determineReadingDifficultiesScreen,
               onGenerateRoute: generateRoute,
               locale: const Locale('ar', 'US'),
               localizationsDelegates: const [

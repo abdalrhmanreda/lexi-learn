@@ -6,6 +6,8 @@ class RoutePath {
   static const String question = '/question';
   static const String let = '/letScreen';
   static const String test = '/testScreen';
+  static const String determineReadingDifficultiesScreen =
+      '/determineReadingDifficultiesScreen';
 
   static const String otpCode = '/otpCodeScreen';
   static const String layout = '/layoutScreen';
